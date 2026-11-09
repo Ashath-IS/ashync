@@ -32,11 +32,18 @@ Open the [latest release](https://github.com/Ashath-IS/ashync/releases/latest) a
 | Your computer | Download | Then |
 |---|---|---|
 | **Windows 10 / 11** | `Ashync-<version>-x64-setup.exe` | Run it. It installs for your user only (no admin needed) and adds Start menu and desktop shortcuts. |
+| Windows, no install | `Ashync-<version>-x64-portable.exe` | Run it directly. It doesn't update itself: download new versions here. |
 | **Ubuntu / Debian** | `Ashync-<version>-amd64.deb` | `sudo apt install ./Ashync-*.deb`, then open Ashync from your apps. |
 | Other Linux | `Ashync-<version>-x86_64.AppImage` | `chmod +x Ashync-*.AppImage` and run it. On Ubuntu 24.04+ install `libfuse2t64` first. |
 
 **"Windows protected your PC"?** Ashync isn't code-signed yet, so Windows SmartScreen warns about new apps.
 Click **More info → Run anyway**.
+
+## Updates
+
+From version 0.1.3, Ashync updates itself. When a new version is out, it downloads in the background and
+Ashync shows **Restart to update**; **Help → Check for Updates** checks now. Your data is backed up before
+each update (to `backups/` in the data folder). On an older version? Install the latest one over it once.
 
 ## Before you start
 
